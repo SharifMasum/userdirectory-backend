@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://userdirectory.vercel.app")
+@CrossOrigin("http://localhost:3000")
 public class UserController {
 
     @Autowired
